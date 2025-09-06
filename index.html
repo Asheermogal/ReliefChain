@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ReliefChain - Empowering Communities Through Transparent Relief Efforts</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="text/javascript"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">ReliefChain</div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        
+        
+      </ul>
+      <div id="walletStatus">
+          <button id="connect-btn">Connect Wallet</button>
+          <span id="walletConnected" style="display:none;">
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <h1>Empowering Communities Through Transparent Relief Efforts</h1>
+      <p id="contract-title">Token Name (RLF)</p>
+      <p>ReliefChain leverages blockchain technology to ensure efficient and transparent distribution of relief funds.</p>
+      <p>Total Supply: <span id="total-supply">0</span> tokens</p>
+      <p>Your Balance: <span id="user-balance">0</span> tokens</p>
+      <a href="#buy-tokens" class="btn">Buy Tokens</a>
+    </section>
+
+    <section id="about">
+      <style>
+        
+        h3 {
+            text-align: center; 
+        }
+    </style>
+      <h2>About ReliefChain</h2>
+      
+      <h3>Our mission is to empower communities and make a positive impact through transparent relief efforts.</h3>
+      
+    </section>
+
+    <section id="how-it-works">
+      <h2>How It Works</h2>
+      <div class="process">
+        <div class="step">
+          <h3>Step 1: Connect Wallet</h3>
+          <p>Connect your Ethereum wallet (e.g., MetaMask) to interact with the ReliefChain smart contract.</p>
+        </div>
+        <div class="step">
+          <h3>Step 2: Buy Tokens</h3>
+          <p>Purchase relief tokens using your connected wallet. Choose from available token packages and specify the number of tokens you want to buy.</p>
+        </div>
+        <div class="step">
+          <h3>Step 3: Distribution</h3>
+          <p>The purchased tokens are securely stored in the ReliefChain smart contract and are transparently distributed to affected communities based on predefined criteria.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="buy-tokens">
+      <h2>Buy Relief Tokens</h2>
+      <div class="token-purchase">
+        <label for="token-amount">Number of Tokens:</label>
+        <input type="number" id="token-amount" min="1" step="1" required>
+        <button id="buyTokenBtn" class="buy-tokens">Buy Tokens</button>
+        <p id="feedback-msg"></p>
+        <p id="error-msg" style="color: red;"></p>
+      </div>
+    </section>
+
+
+    <section id="additional-info">
+        <h2>Additional Information</h2>
+        <div class="info-cards">
+          <div class="card">
+            <h3>Business Overview</h3>
+            <p>Learn more about ReliefChain's business model and objectives.</p>
+            <a href="pages/business-overview.html" class="btn">Read More</a>
+          </div>
+          <div class="card">
+            <h3>Team</h3>
+            <p>Meet the talented individuals behind ReliefChain.</p>
+            <a href="pages/teams.html" class="btn">Read More</a>
+          </div>
+          <div class="card">
+            <h3>Market Opportunity</h3>
+            <p>Discover the market potential and growth opportunities for ReliefChain.</p>
+            <a href="pages/market-opportunity.html" class="btn">Read More</a>
+          </div>
+          <div class="card">
+            <h3>Security</h3>
+            <p>Learn about the security measures implemented in ReliefChain.</p>
+            <a href="pages/security.html" class="btn">Read More</a>
+          </div>
+          <div class="card">
+            <h3>Business Strategy</h3>
+            <p>Explore ReliefChain's long-term vision and expansion plans.</p>
+            <a href="pages/business-strategy.html" class="btn">Read More</a>
+          </div>
+        </div>
+      </section>
+      
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+﻿# OS/editor
+.DS_Store
+Thumbs.db
+*.log
+.env
+.vscode/
+.idea/
+*.code-workspace
+
+# Archives & binaries
+*.zip
+*.7z
+*.tar
+*.gz
+*.exe
