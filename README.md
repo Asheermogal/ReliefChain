@@ -9,3 +9,7 @@ Brief description.
 
 ## Run
 How to run.
+
+---
+© 2025 Asheer Mogal — All rights reserved.
+
